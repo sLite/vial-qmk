@@ -3,6 +3,72 @@
     "vendorId": "0xFEED",
     "productId": "0x0000",
     "lighting": "vialrgb",
+    "customKeycodes": [
+        {"name": "L_DPI_INC",
+         "title": "Increase left trackball sensitivity",
+         "shortName": "L.Dpi+"
+        },
+        {"name": "L_DPI_DEC",
+         "title": "Decrease left trackball sensitivity",
+         "shortName": "L.Dpi-"
+        },
+        {"name": "L_SNP_INC",
+         "title": "Increase left trackball sensitivity when in sniping mode",
+         "shortName": "L.Snp+"
+        },
+        {"name": "L_SNP_DEC",
+         "title": "Decrease left trackball sensitivity when in sniping mode",
+         "shortName": "L.Snp-"
+        },
+        {"name": "L_Snipe",
+         "title": "Reduce left trackball sensitivity while held",
+         "shortName": "L.Snp"
+        },
+        {"name": "L_SNP_TOG",
+         "title": "Toggle left trackball between normal and sniping mode",
+         "shortName": "L.SnpTg"
+        },
+        {"name": "L_DragScroll",
+         "title": "Make left trackball behave as a scroll wheel while held",
+         "shortName": "L.Scr"
+        },
+        {"name": "L_DragScroll_TOG",
+         "title": "Toggle left trackball between normal and drag scroll mode",
+         "shortName": "L.ScrTg"
+        },
+        {"name": "R_DPI_INC",
+         "title": "Increase trackball sensitivity on right hand",
+         "shortName": "R.Dpi+"
+        },
+        {"name": "R_DPI_DEC",
+         "title": "Decrease trackball sensitivity on right hand",
+         "shortName": "R.Dpi-"
+        },
+        {"name": "R_SNP_INC",
+         "title": "Increase right trackball sensitivity when in sniping mode",
+         "shortName": "R.Snp+"
+        },
+        {"name": "R_SNP_DEC",
+         "title": "Decrease right trackball sensitivity when in sniping mode",
+         "shortName": "R.Snp-"
+        },
+        {"name": "R_Snipe",
+         "title": "Reduce right trackball sensitivity while held",
+         "shortName": "R.Snp"
+        },
+        {"name": "R_SNP_TOG",
+         "title": "Toggle right trackball between normal and sniping mode",
+         "shortName": "R.SnpTg"
+        },
+        {"name": "R_DragScroll",
+         "title": "Make right trackball behave as a scroll wheel while held",
+         "shortName": "R.Scr"
+        },
+        {"name": "R_DragScroll_TOG",
+         "title": "Toggle right trackball between normal and drag scroll mode",
+         "shortName": "R.ScrTg"
+        }
+    ],
     "matrix": {
         "rows": 14,
         "cols": 8

@@ -106,3 +106,26 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                                        _______, _______, _______,   _______, _______, _______
     )
 };
+
+void keyboard_post_init_user(void) {
+    // Scroll Mode for left trackball on init
+    charybdis_set_pointer_dragscroll_enabled(true, true);
+}
+
+layer_state_t layer_state_set_user(layer_state_t state) {
+    // Scroll Mode for right trackball on layer 3
+    if (get_highest_layer(state) == 3) {
+        charybdis_set_pointer_dragscroll_enabled(true, false);
+    } else {
+        charybdis_set_pointer_dragscroll_enabled(false, false);
+    }
+
+    // Sniping Mode for right trackball on layer 2
+    if (get_highest_layer(state) == 2) {
+        charybdis_set_pointer_sniping_enabled(true, false);
+    } else {
+        charybdis_set_pointer_sniping_enabled(false, false);
+    }
+
+    return state;
+}
