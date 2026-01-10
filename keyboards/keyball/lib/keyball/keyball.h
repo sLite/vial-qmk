@@ -25,7 +25,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #endif
 
 #ifndef KEYBALL_CPI_SNIP
-#    define KEYBALL_CPI_SNIP 100
+#    define KEYBALL_CPI_SNIP 200
 #endif
 
 #ifndef KEYBALL_SCROLL_DIV_DEFAULT
